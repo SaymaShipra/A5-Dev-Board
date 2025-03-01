@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- DaisyUi cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style></style>
+  </head>
+  <body class="bg-blue-50 min-h-screen w-full font-poppins">
+    <header class="px-28">
+      <!-- nav section -->
+      <section>
+        <nav class="pt-6">
+          <div class="navbar bg-base-100 shadow-sm rounded-xl p-5">
+            <div class="flex-1 flex gap-2">
+              <img class="w-10" src="assets/logo.png" alt="" />
+              <a class="text-3xl">Dev<span class="font-bold">Board</span> </a>
+            </div>
+            <div class="flex-none flex items-center justify-center gap-6">
+              <div
+                class="flex items-center justify-center gap-3 px-4 py-3 bg-blue-50 rounded-full"
+              >
+                <img src="assets/checkbox.png" alt="" />
+                <span class="font-bold text-3xl">23</span>
+              </div>
+              <div><img src="assets/theme-btn.png" alt="" /></div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <main>
+        <section class="pt-5">
+          <div class="flex gap-4">
+            <!-- full section -->
+            <div
+              class="bg-base-100 shadow-sm rounded-xl min-h-screen flex-1 pb-5"
+            >
+              <!-- main content -->
+              <div
+                class="flex gap-4 px-4 pt-6 border-b-2 border-dashed border-blue-100 pb-4"
+              >
+                <div class="bg-blue-50 flex-auto rounded-xl py-5">
+                  <div class="flex items-center justify-center gap-5">
+                    <div class="p-4 bg-base-100 rounded-full">
+                      <img src="assets/checkbox.png" alt="" />
+                    </div>
+                    <div>
+                      <p>Task Assigned</p>
+                      <h1 class="font-bold text-3xl">06</h1>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="bg-linear-to-r from-blue-600 to-indigo-300 w-80 flex-auto rounded-xl p-5 flex gap-4 items-center"
+                >
+                  <img src="assets/board.png" alt="" />
+                  <div>
+                    <h2 class="text-2xl font-medium text-white">
+                      Discover Something New Today!
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="bg-blue-50 flex-auto flex justify-center items-center gap-4 rounded-xl"
+                >
+                  <div class=" ">
+                    <img class=" " src="assets/calender.png" alt="" />
+                  </div>
+                  <h1 class="text-xl">
+                    sat, <br />
+                    <span class="font-bold">March 01 2025</span>
+                  </h1>
+                </div>
+              </div>
+
+              <!--  -->
+
+              <div class="grid grid-cols-3 gap-4 mx-5 mt-8">
+                <div class="bg-blue-50 rounded-xl h-80 px-5 py-5">
+                  <button
+                    class="btn bg-base-100 rounded-lg text-lg text-gray-600 mb-2"
+                  >
+                    ShopEase
+                  </button>
+                  <h1 class="text-2xl font-medium mb-2">
+                    Fix Mobile Button Issue
+                  </h1>
+                  <div class="p-6 bg-base-100 rounded-lg">
+                    <p class="truncate text-base text-gray-500">
+                      Debug using Chrome <br />
+                      DevTools, check for overlapping elements, and ensure
+                      onClick works properly and ensure onClick works properly
+                    </p>
+                  </div>
+                  <div class="card-actions justify-between mt-5">
+                    <div>
+                      <p class="text-gray-500">Deadline</p>
+                      <h1>21 March 2025</h1>
+                    </div>
+                    <button
+                      class="btn bg-blue-600 text-white rounded-lg text-base"
+                    >
+                      Completed
+                    </button>
+                  </div>
+                </div>
+                <div class="bg-blue-50 rounded-xl h-80 px-5 py-5">
+                  <button
+                    class="btn bg-base-100 rounded-lg text-lg text-gray-600 mb-2"
+                  >
+                    CloudSync
+                  </button>
+                  <h1 class="text-2xl font-medium mb-2">Add Dark Mode</h1>
+                  <div class="p-6 bg-base-100 rounded-lg">
+                    <p class="truncate text-base text-gray-500">
+                      Store the user's preference <br />
+                      in localStorage, update CSS variables dynamically, and
+                      apply a smooth transition effect.
+                    </p>
+                  </div>
+                  <div class="card-actions justify-between mt-5">
+                    <div>
+                      <p class="text-gray-500">Deadline</p>
+                      <h1>21 March 2025</h1>
+                    </div>
+                    <button
+                      class="btn bg-blue-600 text-white rounded-lg text-base"
+                    >
+                      Completed
+                    </button>
+                  </div>
+                </div>
+                <div class="bg-blue-50 rounded-xl h-80 px-5 py-5">
+                  <button
+                    class="btn bg-base-100 rounded-lg text-lg text-gray-600 mb-2"
+                  >
+                    SwiftPay
+                  </button>
+                  <h1 class="text-2xl font-medium mb-2">Optimize Home page </h1>
+                  <div class="p-6 bg-base-100 rounded-lg">
+                    <p class="truncate text-base text-gray-500">
+                      Optimize your homepage by <br />
+                      improving performance, UX, SEO, and conversions. Focus on
+                      speed, responsive design, meta tags, and clear CTAs for
+                      better engagement.
+                    </p>
+                  </div>
+                  <div class="card-actions justify-between mt-5">
+                    <div>
+                      <p class="text-gray-500">Deadline</p>
+                      <h1>21 March 2025</h1>
+                    </div>
+                    <button
+                      class="btn bg-blue-600 text-white rounded-lg text-base"
+                    >
+                      Completed
+                    </button>
+                  </div>
+                </div>
+                <div class="bg-blue-50 rounded-xl h-80 px-5 py-5">
+                  <button
+                    class="btn bg-base-100 rounded-lg text-lg text-gray-600 mb-2"
+                  >
+                    Meta
+                  </button>
+                  <h1 class="text-2xl font-medium mb-2">Add new emoji 🤲</h1>
+                  <div class="p-6 bg-base-100 rounded-lg">
+                    <p class="truncate text-base text-gray-500">
+                      To add new emojis, use <br />
+                      the emoji keyboard on mobile 📱 or press Win + . (Windows)
+                      or Control + Command + Space (Mac) 💻. You can also copy
+                      from websites like Emojipedia 🔗 or use Unicode in HTML
+                      🎨.
+                    </p>
+                  </div>
+                  <div class="card-actions justify-between mt-5">
+                    <div>
+                      <p class="text-gray-500">Deadline</p>
+                      <h1>21 March 2025</h1>
+                    </div>
+                    <button
+                      class="btn bg-blue-600 text-white rounded-lg text-base"
+                    >
+                      Completed
+                    </button>
+                  </div>
+                </div>
+                <div class="bg-blue-50 rounded-xl h-80 px-5 py-5">
+                  <button
+                    class="btn bg-base-100 rounded-lg text-lg text-gray-600 mb-2"
+                  >
+                    Google LLC
+                  </button>
+                  <h1 class="text-2xl font-medium mb-2">
+                    Integrate OpenAI API
+                  </h1>
+                  <div class="p-6 bg-base-100 rounded-lg">
+                    <p class="truncate text-base text-gray-500">
+                      To integrate OpenAI <br />
+                      API, get your API key from OpenAI , install dependencies
+                      (openai for Python or Node.js) , and use the API to send
+                      requests. Handle errors properly and optimize for rate
+                      limits to ensure smooth performance .
+                    </p>
+                  </div>
+                  <div class="card-actions justify-between mt-5">
+                    <div>
+                      <p class="text-gray-500">Deadline</p>
+                      <h1>21 March 2025</h1>
+                    </div>
+                    <button
+                      class="btn bg-blue-600 text-white rounded-lg text-base"
+                    >
+                      Completed
+                    </button>
+                  </div>
+                </div>
+                <div class="bg-blue-50 rounded-xl h-80 px-5 py-5">
+                  <button
+                    class="btn bg-base-100 rounded-lg text-lg text-gray-600 mb-2"
+                  >
+                    Glassdoar
+                  </button>
+                  <h1 class="text-2xl font-medium mb-2">
+                    Improve Job searching
+                  </h1>
+                  <div class="p-6 bg-base-100 rounded-lg">
+                    <p class="truncate text-base text-gray-500">
+                      To improve job searching, <br />
+                      optimize your resume & LinkedIn profile 📄, tailor
+                      applications to each job 🎯, and use job boards like
+                      LinkedIn, Indeed, and Glassdoor 🌐. Network actively 🤝,
+                      build relevant skills 📚, and prepare for interviews by
+                      practicing common questions 🎤. Stay consistent and follow
+                      up to increase your chances of success 🚀
+                    </p>
+                  </div>
+                  <div class="card-actions justify-between mt-5">
+                    <div>
+                      <p class="text-gray-500">Deadline</p>
+                      <h1>21 March 2025</h1>
+                    </div>
+                    <button
+                      class="btn bg-blue-600 text-white rounded-lg text-base"
+                    >
+                      Completed
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+            </div>
+            <div class="bg-base-100 shadow-sm rounded-xl max-w-xs flex-1">
+              <!-- activity section -->
+              <div class="border-b-2 border-dashed border-blue-100 pb-5">
+                <div class="flex items-center justify-center gap-4 mt-5">
+                  <img src="assets/activity.png" alt="" />
+                  <h1 class="text-xl font-medium">Activity Log</h1>
+                </div>
+                <div class="text-center mt-5">
+                  <button
+                    class="btn bg-blue-600 text-white rounded-lg text-base"
+                  >
+                    Clear History
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- full end section -->
+          </div>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>
