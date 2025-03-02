@@ -1,3 +1,1 @@
-document.getElementById("current-date").innerHTML = new Date()
-  .toDateString()
-  .replace(" ", " , <br> ");
+document.getElementById("current-date").innerHTML = new Date().toDateString();

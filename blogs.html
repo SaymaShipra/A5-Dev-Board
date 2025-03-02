@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <!-- DaisyUi cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-blue-50 min-h-screen w-full font-poppins">
+    <header class="px-28">
+      <nav class="pt-6">
+        <div class="navbar bg-base-100 shadow-sm rounded-xl p-5">
+          <div class="flex-1 flex gap-2">
+            <img class="w-10" src="assets/logo.png" alt="" />
+            <a class="text-3xl">Dev<span class="font-bold">Board</span> </a>
+          </div>
+
+          <div>
+            <button
+              id="back-btn"
+              class="btn bg-blue-600 text-white rounded-lg text-base"
+            >
+              Back to desk
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="px-28 mt-10">
+      <div class="bg-base-100 shadow-sm rounded-lg p-4 mb-6">
+        <h1
+          class="border-b-2 border-dashed border-blue-100 pb-3 text-2xl font-semibold"
+        >
+          Question-1: What are the different ways to select an element in the
+          DOM?
+        </h1>
+        <p class="text-lg text-gray-500 pt-2">
+          The different ways to select elements in the DOM using methods like
+          getElementById , getElementsByClassName , getElementsByTagName ,
+          querySelector, and querySelectorAll .
+        </p>
+      </div>
+
+      <div class="bg-base-100 shadow-sm rounded-lg p-4 mb-6">
+        <h1
+          class="border-b-2 border-dashed border-blue-100 pb-3 text-2xl font-semibold"
+        >
+          Question-2: What is the difference between innerHTML, innerText, and
+          textContent ?
+        </h1>
+        <p class="text-lg text-gray-500 pt-2">
+          innerHTML returns or sets HTML content, including tags. innerText
+          returns or sets only visible text, ignoring hidden elements.
+          textContent returns or sets all text content, including hidden
+          elements, but ignores HTML tags
+        </p>
+      </div>
+      <div class="bg-base-100 shadow-sm rounded-lg p-4 mb-6">
+        <h1
+          class="border-b-2 border-dashed border-blue-100 pb-3 text-2xl font-semibold"
+        >
+          Question-3: What is event delegation in the DOM?
+        </h1>
+        <p class="text-lg text-gray-500 pt-2">
+          Event Delegation is a technique where you attach a single event
+          listener to a parent element to handle events for all of its child
+          elements.
+        </p>
+      </div>
+      <div class="bg-base-100 shadow-sm rounded-lg p-4 mb-6">
+        <h1
+          class="border-b-2 border-dashed border-blue-100 pb-3 text-2xl font-semibold"
+        >
+          Question-4: What is event bubbling in the DOM?
+        </h1>
+        <p class="text-lg text-gray-500 pt-2">
+          Event Bubbling is a behavior in the DOM where an event triggered on a
+          child element propagates up through its ancestors in the DOM tree.
+        </p>
+      </div>
+      <div class="bg-base-100 shadow-sm rounded-lg p-4 mb-6">
+        <h1
+          class="border-b-2 border-dashed border-blue-100 pb-3 text-2xl font-semibold"
+        >
+          Question-5: How do you create, add, and remove elements using
+          JavaScript?
+        </h1>
+        <p class="text-lg text-gray-500 pt-2">
+          To create an element, use document.createElement(). To add it, use
+          appendChild() or insertBefore(). To remove an element, use
+          removeChild() or the remove() method. You can also modify elements by
+          setting properties like textContent or innerHTML.
+        </p>
+      </div>
+    </section>
+
+    <script src="script/blogs.js " defer></script>
+  </body>
+</html>
