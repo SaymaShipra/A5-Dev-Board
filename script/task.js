@@ -21,7 +21,8 @@ for (let i = 0; i < buttons.length; i++) {
     <p style=" background-color:#F4F7FF; padding:10px;border-radius:8px;">You have completed
     <b>${this.closest(".task-card").querySelector("h1").innerText}</b>
     at ${new Date().toLocaleTimeString()}</p><br>`;
-
+    
+// add alert
     alert("Board updated Successfully");
     if (document.getElementById("task-count").innerText == "0") {
       alert("Congrats!!!You have completed all the current task");
