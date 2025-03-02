@@ -8,7 +8,7 @@ for (let i = 0; i < buttons.length; i++) {
     // add activity history
 
     document.getElementById("history-log").innerHTML += `
-    <p style="margin-bottom: 10px;">You have completed 
+    <p style=" background-color:#F4F7FF; padding:10px;border-radius:8px;">You have completed 
     <b>${this.closest(".task-card").querySelector("h1").innerText}</b> 
     at ${new Date().toLocaleTimeString()}</p><br>`;
 
